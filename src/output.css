@@ -640,16 +640,16 @@ video {
   margin-top: 50px;
 }
 
+.mt-\[5px\] {
+  margin-top: 5px;
+}
+
 .mt-\[60px\] {
   margin-top: 60px;
 }
 
 .mt-\[\] {
   margin-top: ;
-}
-
-.mt-\[5px\] {
-  margin-top: 5px;
 }
 
 .flex {
@@ -676,20 +676,12 @@ video {
   height: 380px;
 }
 
-.h-\[900px\] {
-  height: 900px;
-}
-
-.h-\[10px\] {
-  height: 10px;
-}
-
-.h-\[40px\] {
-  height: 40px;
-}
-
 .h-\[4px\] {
   height: 4px;
+}
+
+.h-\[900px\] {
+  height: 900px;
 }
 
 .w-\[170px\] {
@@ -704,20 +696,16 @@ video {
   width: 270px;
 }
 
-.w-\[100px\] {
-  width: 100px;
-}
-
-.w-\[20px\] {
-  width: 20px;
-}
-
-.w-\[70px\] {
-  width: 70px;
-}
-
 .w-\[40px\] {
   width: 40px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[100px\] {
+  width: 100px;
 }
 
 .max-w-\[1200px\] {
@@ -790,10 +778,6 @@ video {
   gap: 50px;
 }
 
-.gap-\[\] {
-  gap: ;
-}
-
 .place-self-center {
   place-self: center;
 }
@@ -812,6 +796,27 @@ video {
 
 .border-none {
   border-style: none;
+}
+
+.border-\[\] {
+  border-color: ;
+}
+
+.border-\[gray\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(128 128 128 / var(--tw-border-opacity, 1));
+}
+
+.border-\[text-gray-500\] {
+  border-color: text-gray-500;
+}
+
+.border-\[gr\] {
+  border-color: gr;
+}
+
+.border-\[bg-green-700\] {
+  border-color: bg-green-700;
 }
 
 .bg-\[\#279A59\] {
@@ -880,6 +885,10 @@ video {
   padding-bottom: 50px;
 }
 
+.text-\[15px\] {
+  font-size: 15px;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -890,10 +899,6 @@ video {
 
 .text-\[30px\] {
   font-size: 30px;
-}
-
-.text-\[15px\] {
-  font-size: 15px;
 }
 
 .font-bold {
@@ -980,24 +985,12 @@ video {
     width: 500px;
   }
 
-  .lg\:w-\[900px\] {
-    width: 900px;
-  }
-
-  .lg\:w-\[\] {
-    width: ;
-  }
-
-  .lg\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .lg\:w-\[800px\] {
-    width: 800px;
-  }
-
   .lg\:w-\[600px\] {
     width: 600px;
+  }
+
+  .lg\:w-\[900px\] {
+    width: 900px;
   }
 
   .lg\:max-w-\[1200px\] {
@@ -1028,15 +1021,7 @@ video {
     font-size: 30px;
   }
 
-  .lg\:text-\[50px\] {
-    font-size: 50px;
-  }
-
   .lg\:text-\[40px\] {
     font-size: 40px;
-  }
-
-  .lg\:text-\[\] {
-    color: ;
   }
 }
